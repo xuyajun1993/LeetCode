@@ -5,6 +5,7 @@ import java.util.Stack;
 /**
  * Created by xyj on 15/7/8.
  * Implement a basic calculator to evaluate a simple expression string.
+ * 该答案综合解答了basic calculator(||)
  */
 public class Basic_Calculator_II {
 
@@ -42,6 +43,7 @@ public class Basic_Calculator_II {
                 //弹出‘（’
                 symbolStack.pop();
             } else {
+
                 //符号栈中不为空并且栈顶不是左括号并且栈顶符号优先级大于c
                 while (!symbolStack.isEmpty() && isLeftBracket(symbolStack.peek())&&isPrior(symbolStack.peek(),c)) {
                     numberStack.push(calculateValues(symbolStack.pop(), numberStack.pop(), numberStack.pop()));
