@@ -11,7 +11,7 @@ public class LRU_Cache {
     //链表里保存k和value
     public LRU_Cache(int capacity) {
         map = new HashMap<Integer, Node>(capacity);
-        capacity = capacity;
+        this.capacity = capacity;
         head = new Node(-1, -1);
         tail = new Node(1, 1);
         head.next = tail;
