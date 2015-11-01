@@ -3,10 +3,11 @@
   <component name="EclipseCodeFormatter">
     <option name="defaultSettings" value="true" />
     <option name="formatter" value="ECLIPSE" />
-    <option name="id" value="1438568267007" />
+    <option name="id" value="1444838491241" />
     <option name="name" value="default" />
-    <option name="pathToConfigFileJava" value="E:/Configs/code_formatter_pay_team.xml" />
+    <option name="pathToConfigFileJava" value="$USER_HOME$/IdeaProjects/code_formatter_pay_team.xml" />
     <option name="selectedJavaProfile" value="pay_team" />
+    <option name="useOldEclipseJavaFormatter" value="true" />
   </component>
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
