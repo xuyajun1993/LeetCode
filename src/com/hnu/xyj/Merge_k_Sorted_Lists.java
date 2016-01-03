@@ -3,7 +3,7 @@ package com.hnu.xyj;
 /**
  * Created by hzxuyajun on 2015/10/15.
  * Merge k sorted linked lists and return it as one sorted list. Analyze and describe its complexity.
- * ¶ÑÅÅÐò/¹é²¢ÅÅÐò
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½é²¢ï¿½ï¿½ï¿½ï¿½
  */
 public class Merge_k_Sorted_Lists
 {
@@ -22,7 +22,7 @@ public class Merge_k_Sorted_Lists
 
 		return null;
 	}
-	
+
 	private ListNode merge(ListNode[] lists, int lo, int hi)
 	{
 		ListNode resultNode = null;
@@ -35,7 +35,7 @@ public class Merge_k_Sorted_Lists
 		}
 		return resultNode;
 	}
-	
+
 	private ListNode mergeTwoLists(ListNode node1, ListNode node2)
 	{
 		ListNode head = new ListNode(0);
